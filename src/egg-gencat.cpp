@@ -135,8 +135,8 @@ int vif_main(int argc, char* argv[]) {
     // Read command line arguments
     // ---------------------------
     read_args(argc, argv, arg_list(
-        ra0, dec0, area, mmin, maglim, zmin, zmax, name(bin_dz, "dz"), min_dz, max_dz,
-        name(bin_dm, "dm"), ms_disp,
+        ra0, dec0, area, mmin, mmax, maglim, zmin, zmax, name(bin_dz, "dz"),
+        min_dz, max_dz, name(bin_dm, "dm"), ms_disp,
         no_pos, no_clust, no_flux, no_stellar, no_dust, no_passive_lir, no_random, no_nebular,
         save_sed, name(mass_func_file, "mass_func"),
         name(ir_lib_file, "ir_lib"), name(opt_lib_file, "opt_lib"), opt_lib_imf,
